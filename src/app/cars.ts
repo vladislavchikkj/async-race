@@ -266,7 +266,7 @@ import {
   
       if (target.matches('.garage__submit-update')) {
         await updateCarInCarsList();
-        await deactivateCarUpdatingElements();
+        deactivateCarUpdatingElements();
       }
   
       if (target.matches('.cars__next') || target.matches('.cars__prev')) {
