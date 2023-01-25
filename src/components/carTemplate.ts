@@ -1,4 +1,4 @@
-const DEFAULT_COLOR = '#2b2b2b';
+import { DEFAULT_COLOR } from '../app/const';
 
 function getCarTemplate(color: string = DEFAULT_COLOR): string {
   const template = `
